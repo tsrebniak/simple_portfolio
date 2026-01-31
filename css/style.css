@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+	font-size: 1.6rem;
+}
+
+[id] {
+	scroll-margin-top: 84px;
+}
+
+.navbar-nav .nav-link.active {
+	color: #ff6600 !important;
+}
+
+.orange-color {
+	color: #ff6600;
+}
+
+.navbar-brand {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+
+.nav-item,
+.navbar-toggler-icon {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	padding: 1em 2em;
+}
+
+.nav-link:hover {
+	color: rgb(255, 102, 0);
+}
+
+.nav-link {
+	transition: color 0.3s;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+}
+
+.aboutme {
+	position: relative;
+	height: 100dvh;
+	background-image: url('../img/code-3637299_1920.jpg');
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.aboutme .btn {
+	padding: 1rem 2rem;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.technology-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.technologies-icon {
+	width: 4rem;
+}
+
+.project-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.book-status {
+	width: 140px;
+}
+
+.project-box {
+	height: 207px;
+}
+
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact .submit-btn {
+	font-size: 1.6rem;
+}
+
+.input-group input,
+.input-group textarea {
+	font-size: 16px;
+}
+
+@media (width >= 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
+}
