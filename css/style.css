@@ -146,6 +146,7 @@ body {
 }
 
 .contact-data a:active {
+	color: #fff;
 }
 
 .contact-data a {
